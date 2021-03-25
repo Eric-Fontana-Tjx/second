@@ -6,6 +6,7 @@ steps:
 - name: test
   image: hashicorp/terraform:latest
   commands:
+  - env|sort
   - terraform init -backend-config="storage_account_name=tfstorageale" -backend-config="container_name=tfstate" -backend-config="access_key=2EbthdKe7sRB4PY9gTQu5EYkk6vAmzjKK7hWdkMC9nHellt+eVpttjdKs114OtpMywp4tRvj4wCDUOJJrxM8vA==" -backend-config="key=codelab.microsoft.tfstate"
  
 
