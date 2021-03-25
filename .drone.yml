@@ -7,5 +7,6 @@ steps:
   image: hashicorp/terraform:latest
   commands:
   - env|sort
+  - echo "FOO is ${FOO}"
   - terraform show
 
