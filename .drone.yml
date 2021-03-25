@@ -4,7 +4,7 @@ name: default
 
 steps:
 - name: test
-  image: busybox
+  image: hashicorp/terraform:latest
   commands:
-  - echo hello_world
+  - terraform show
 
