@@ -4,8 +4,7 @@ name: default
 
 steps:
 - name: test
-  image: gcc
+  image: busybox
   commands:
-  - ./configure
-  - make
-  - make test
+  - echo hello_world
+
