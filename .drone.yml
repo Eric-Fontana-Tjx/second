@@ -1,4 +1,3 @@
-# Drone yaml
 ---
 kind: pipeline
 type: exec
